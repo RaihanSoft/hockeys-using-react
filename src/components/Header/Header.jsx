@@ -13,7 +13,12 @@ function Header() {
       </div>
 
       {/* arrow  */}
-      
+
+      <div className="space-x-3 absolute hidden xl:block xl:bottom-10 left-40">
+      <i class="ri-arrow-left-s-line text-xl font-bold bg-black rounded-full p-2 text-white"></i>
+      <i class="ri-arrow-right-s-line text-xl font-bold bg-black rounded-full p-2 text-white"></i>
+      </div>
+
 
 
 
