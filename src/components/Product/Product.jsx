@@ -41,11 +41,11 @@ function Product() {
                   </p>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex gap-">
                   <p className="text-error font-bold">Price - $22.00</p>
                   <p>
-                    {" "}
-                    <i class="ri-shopping-cart-line sm:text-xl"></i>{" "}
+             
+                    <i class="ri-shopping-cart-line sm:text-xl"></i>
                     Delivery Fee : Free
                   </p>
                 </div>
