@@ -12,9 +12,9 @@ function Touch() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2">
-          <div className=" ">
-            <div className="bg-[#BCED6D1A]">
+        <div className="grid justify-center md:grid-cols-2 mt-10">
+          <div className="  space-y-5">
+            <div className="bg-[#BCED6D1A]  p-3 w-1/3">
               <div>
                 <img src="./Images/Group 1171275317.png" alt="" />
               </div>
@@ -24,9 +24,9 @@ function Touch() {
               </p>
             </div>
 
-            <div className="bg-[#BCED6D1A]">
+            <div className="bg-[#BCED6D1A] w-1/3  p-5">
               <div>
-                <img src="./Images/Group 1171275317.png" alt="" />
+                <img src="./Images/Group 1171275318.png" alt="" />
               </div>
               <p>
                 Phone Number : <br />
@@ -34,7 +34,7 @@ function Touch() {
               </p>
             </div>
 
-            <div className="bg-[#BCED6D1A]">
+            <div className="bg-[#BCED6D1A]  w-1/3 p-5">
               <div>
                 <img src="./Images/Group 1171275317.png" alt="" />
               </div>
@@ -45,35 +45,46 @@ function Touch() {
             </div>
           </div>
 
-          <div className="border-4 bg-red-50">
-            <div className="flex">
+
+{/* two  */}
+          <div className=" space-y-5">
+
+
+            <div className="flex gap-5 ">
               <div>
-                <p>Your Name</p>
-                <input type="text" placeholder="Enter your full name" />
+                <p className="font-bold">Your Name</p>
+                <input type="text" className="w-[300px] p-2 rounded-xl " placeholder="Enter your full name" />
               </div>
               <div>
-                <p>Your Email</p>
-                <input type="text" placeholder="Enter your email" />
+                <p className="font-bold">Your Email</p>
+                <input type="text" className="w-[300px] p-2 rounded-xl" placeholder="Enter your email" />
               </div>
             </div>
 
-            <div className="flex">
+
+
+
+            <div className="flex gap-5 ">
               <div>
-                <p>Your Name</p>
-                <input type="text" placeholder="Enter your full name" />
+                <p className="font-bold">Subject</p>
+                <input type="text" className="max-w-[300px] p-2 rounded-xl " placeholder="Enter your subject" />
               </div>
               <div>
-                <p>Your Email</p>
-                <input type="text" placeholder="Enter your email" />
+                <p className="font-bold">Phone Number</p>
+                <input type="text" className="max-w-[300px] p-2 rounded-xl" placeholder="Enter your phone number" />
               </div>
             </div>
+
+
 
             <div>
               <textarea
                 placeholder="Bio"
-                className="textarea textarea-bordered textarea-xl w-full max-w-xs"
-              ></textarea>
+                className=" max-w-[620px] rounded-sm p-2"></textarea>
             </div>
+
+
+            
           </div>
         </div>
       </section>
