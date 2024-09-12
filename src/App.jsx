@@ -15,6 +15,7 @@ function App() {
      <Program></Program>
      <Product></Product>
      <Client></Client>
+     <Touch></Touch>
     </div>
   );
 }
