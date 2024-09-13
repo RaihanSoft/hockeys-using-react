@@ -1,5 +1,6 @@
 import Client from "./components/Client/Client";
 import Club from "./components/Club/Club";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Product from "./components/Product/Product";
@@ -17,6 +18,8 @@ function App() {
      <Product></Product>
      <Client></Client>
      <Touch></Touch>
+     <Footer></Footer>
+
     </div>
   );
 }
